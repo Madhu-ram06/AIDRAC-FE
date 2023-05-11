@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap%27');
+
+#buttons {
+  background-image: url("./image/Background2.jpg");
+  height: 90vh;
+  background-position: center;
+  padding-top: 60px;
+  padding-left: 100px;
+  margin: auto;
+  text-align: left;
+  background-size: cover;
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+#uploadbtn {
+  width: 250px;
+  display: block;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #2D033B;
+  color: aliceblue;
+  font-size: 25px;
+  border-radius: 20px;
+  font-family: 'Coromorant Garamond', serif;
+  margin-left: 33%;
+}
+#uploadbtn:hover{
+  width: 250px;
+  display: block;
+  
+  padding: 20px;
+  background-color: aliceblue;
+  color: #2D033B;
+  font-size: 25px;
+  border:2px solid #2D033B;
+  border-radius: 20px;
+  font-family: 'Coromorant Garamond', serif;
+  font-weight: 600;
+}
+
+.upload {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+ 
+  padding-top: 3%;
+  width: 800px;
+
+  text-align: center;
+
+
+border: 3px solid purple;
+border-radius: 8px;
+}
+
+#choosefile{
+  margin-bottom: 50px;
+  
+}
+.data-card{
+  padding: 5%;
+  
+  margin:1%;
+  text-align: center;
+}
+#choose{
+  font-size: 26px;
+  font-weight: 600;
+}

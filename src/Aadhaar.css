@@ -1,0 +1,38 @@
+.aadhaar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .aadhaar-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .aadhaar-details label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .aadhaar-details input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 40px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  .aadhaar-details input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #aaa;
+  }
+  
